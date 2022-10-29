@@ -430,6 +430,21 @@ article:hover img{
         gap: 30px;
     }
     .blog{
-        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+    .blog article{
+        max-width: 90%;
+    }
+    .info{
+        max-width: 100%;
+    }
+    .news{
+        max-width: 100%;
+    }
+    .blog p{
+        max-width: 100%;
     }
 }
